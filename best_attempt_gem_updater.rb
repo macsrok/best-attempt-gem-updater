@@ -100,7 +100,7 @@ class BestAttemptGemUpdater
     end
 
     def rspec_green?
-     system('rspec')
+     system('rspec --fail-fast')
     end
 
     def current_commit
